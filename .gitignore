@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# MediaPipe model (large binary, auto-downloaded on first run)
+hand_landmarker.task
+
+# Vosk model (large, auto-downloaded on first run)
+vosk-model-small-en-us-0.15/
+vosk-model-small-en-us-0.15.zip
+
+# Calibration output / temp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
